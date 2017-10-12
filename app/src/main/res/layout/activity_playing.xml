@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music.playing">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="playing  MP3"
+        style="@style/playtext" />
+
+
+    <ImageView
+        android:id="@+id/playsong"
+
+
+        style="@style/nowplayingImage" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/nowplayingtitle" />
+
+    <TextView
+
+        style="@style/nowplayingsentence"
+        android:text="@string/now" />
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        style="@style/songslayouts"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            style="@style/prebutton"
+            android:background="@drawable/ic_skip_previous_black_24dp" />
+
+
+        <Button
+            android:id="@+id/play"
+            style="@style/pausebutton"
+            android:background="@drawable/ic_pause_black_24dp" />
+
+        <Button
+            style="@style/nextbutton"
+            android:background="@drawable/ic_skip_next_black_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

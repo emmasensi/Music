@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.music.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+
+        style="@style/songslayouts">
+
+        <Button
+            android:id="@+id/fav"
+            style="@style/buttons"
+            android:background="@drawable/ic_favorite_black_24dp" />
+
+
+        <Button
+            style="@style/buttons2"
+            android:background="@drawable/ic_music_note_black_24dp" />
+
+        <Button
+            android:id="@+id/store"
+            style="@style/buttons3"
+            android:background="@drawable/ic_file_download_black_24dp" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/layout1">
+
+        <LinearLayout
+
+            style="@style/listlayout">
+
+            <TextView
+                style="@style/titles"
+                android:text="list of songs" />
+            <TextView
+                style="@style/titles"
+                android:text="@string/listdesciption" />
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    android:id="@+id/song1"
+                    style="@style/songsimages"
+
+                    android:background="@drawable/p2" />
+
+                <LinearLayout
+
+                    style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song1ad"
+                    style="@style/songs"
+                    android:text="@string/passenger" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    android:id="@+id/song2"
+
+
+                    style="@style/songsimages" />
+
+                <LinearLayout
+
+                    style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song2ad"
+                    style="@style/songs"
+                    android:text="@string/cbx" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    android:id="@+id/song3"
+                    style="@style/songsimages"
+
+
+                    android:background="@drawable/ed2" />
+
+                <LinearLayout
+
+                    style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song3ad"
+                    style="@style/songs"
+                    android:text="@string/ed" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    style="@style/songsimages"
+                    android:background="@drawable/e2" />
+
+                <LinearLayout
+
+                    style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song4ad"
+                    style="@style/songs"
+                    android:text="@string/exo" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    style="@style/songsimages"
+                    android:background="@drawable/c2" />
+
+                <LinearLayout style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song5ad"
+                    style="@style/songs"
+                    android:text="@string/charlie" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                style="@style/songslayouts">
+
+                <ImageView
+                    android:id="@+id/song6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+
+                    android:background="@drawable/ai2"
+
+                    android:padding="30dp"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout style="@style/linevertical" />
+
+                <Button
+                    android:id="@+id/song6ad"
+                    style="@style/songs"
+                    android:text="@string/ailee" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/line" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#7c7c69"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        style="@style/songslayouts"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            style="@style/prebutton"
+            android:background="@drawable/ic_skip_previous_black_24dp" />
+
+
+        <Button
+            android:id="@+id/play"
+            style="@style/palybutton"
+            android:background="@drawable/ic_play_arrow_black_24dp" />
+
+        <Button
+            style="@style/nextbutton"
+            android:background="@drawable/ic_skip_next_black_24dp" />
+
+    </LinearLayout>
+</RelativeLayout>

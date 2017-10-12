@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.favorite">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+
+        style="@style/songslayouts">
+
+        <Button
+            android:id="@+id/fav"
+            style="@style/buttons2"
+            android:background="@drawable/ic_favorite_black_24dp2" />
+
+
+        <Button
+            android:id="@+id/songs"
+            style="@style/buttons"
+            android:background="@drawable/ic_music_note_black_24dp2" />
+
+        <Button
+            android:id="@+id/store"
+            style="@style/buttons3"
+            android:background="@drawable/ic_file_download_black_24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/titles"
+        android:text="favorite songs" />
+    <TextView
+        style="@style/titles"
+        android:text="add more songs to your favorite" />
+
+    <LinearLayout
+
+        style="@style/line" />
+
+    <LinearLayout
+
+        style="@style/songslayouts">
+
+        <ImageView
+
+
+            style="@style/songsimages" />
+
+        <LinearLayout
+
+            style="@style/linevertical" />
+
+        <Button
+            android:id="@+id/song1ad"
+            style="@style/songs"
+            android:text="@string/cbx" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        style="@style/line" />
+
+    <LinearLayout
+
+        style="@style/songslayouts">
+
+        <ImageView
+            style="@style/songsimages"
+            android:background="@drawable/e2" />
+
+        <LinearLayout
+
+            style="@style/linevertical" />
+
+        <Button
+            android:id="@+id/song2ad"
+
+            style="@style/songs"
+            android:text="@string/exo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        style="@style/line" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="passenger">passenger-let her go</string>
+    <string name="cbx">CBX-hey mama</string>
+    <string name="ed">Ed -shape of you</string>
+    <string name="exo">EXO- lucky one</string>
+    <string name="charlie">Charlie puth-attention</string>
+    <string name="ailee">Ailee-heaven</string>
+    <string name="now">now playing</string>
+    <string name="buy_songs_online">buy songs online</string>
+    <string name="payment">1.When the user taps the Android Pay button, the app requests MaskedWallet information. The Masked Wallet contains partial payment information such as billing address, shipping address, masked backing payment instrument number, and cart items.\n 2.Google returns a MaskedWallet response containing the user\'s wallet information. The app uses this information to present order review screens and other options. For example, the user might want to change their selected payment instrument or add a new shipping address.\n 3.To complete the order, the app requests the FullWallet.\n 4.Google passes back FullWallet information, which includes the detailed Android Pay payment credentials for the transaction.</string>
+    <string name="listdesciption">songs most listened sort by artist name</string>
+
+</resources>
